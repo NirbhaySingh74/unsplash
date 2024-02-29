@@ -1,11 +1,19 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
-    <div className="bg-gray-800 py-4">
-      <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
-        <h3 className="text-white text-lg font-semibold mb-2 sm:mb-0">Home</h3>
-        <h3 className="text-white text-lg font-semibold cursor-pointer">
-          About
-        </h3>
+    <div className="bg-white py-4">
+      <div className="container mx-auto px-4 sm:px-0 flex justify-between items-center">
+        <Link to="/" className="flex items-center">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/5968/5968763.png"
+            alt=""
+            className="w-10"
+          />
+        </Link>
+        <Link to="/about">
+          <h3 className="text-black text-lg font-bold cursor-pointer">About</h3>
+        </Link>
       </div>
     </div>
   );
