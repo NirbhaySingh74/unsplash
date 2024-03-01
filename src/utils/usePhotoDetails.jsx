@@ -9,7 +9,7 @@ const usePhotoDetails = (photoId) => {
     if (photoId) {
       fetchPhoto();
     }
-  }, [photoId]);
+  }, []);
 
   const fetchPhoto = async () => {
     try {

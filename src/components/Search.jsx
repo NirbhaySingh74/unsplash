@@ -1,4 +1,3 @@
-// Search.jsx
 import { useState } from "react";
 import PropTypes from "prop-types";
 import SearchImg from "../assets/search.png";
@@ -27,7 +26,7 @@ const Search = ({ onSearch }) => {
         <button
           onClick={handleSearch}
           className="absolute inset-y-0 right-0 px-3 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          style={{ marginLeft: "-40px" }} // Adjust the marginLeft as per your preference
+          style={{ marginLeft: "-40px" }}
         >
           <img src={SearchImg} alt="Search" className="h-6 w-6" />
         </button>
