@@ -16,7 +16,7 @@ const FilterPic = ({ onSearch, onRandom }) => {
   return (
     <div className="flex flex-col sm:flex-row justify-center my-4 gap-3">
       <button
-        className="px-6 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="px-6 py-2 bg-blue-500 text-white rounded-sm hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
         onClick={handleNature}
       >
         Nature
